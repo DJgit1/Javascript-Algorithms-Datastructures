@@ -1,0 +1,51 @@
+*,
+*::after,
+*::before{
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0e2f44;
+}
+
+.input-container{
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  margin: 100px auto 0;
+  padding: 30px;
+  background-color: #f6546a;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 2em;
+  color: #003366;
+  border-radius: 50px 40px 30px 20px;
+  align-items: center;
+}
+
+.text-input-label{
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#text-input{
+  text-align: center;
+  font-size: 0.5em;
+  margin-bottom: 10px;
+  width: 80%;
+  height: 30px;
+  border-radius: 5px;
+  border: 3px solid #e6c1ff;
+}
+ 
+#check-btn {
+  height: 30px;
+  width: 30%;
+  font-weight: bold;
+  font-size: 0.5em;
+  border: 3px solid #003366;
+  border-radius: 5px;
+  background-color: #ff7373;
+  color: #003366;
+  cursor: pointer;
+}
